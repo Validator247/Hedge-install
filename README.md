@@ -89,6 +89,26 @@ Recover Existing Key
 
     hedged keys add wallet --recover
 
+Create Validator
+
+        hedged tx staking create-validator \
+        --amount 1000000uhedge \
+        --pubkey $(hedged tendermint show-validator) \
+        --chain-id berberis-1 \
+        --min-self-delegation 1 \
+        --commission-max-change-rate 0.01 \
+        --commission-max-rate 0.2 \
+        --commission-rate 0.05 \
+        --moniker "Your_Nodename" \
+        --identity "Your_Keybase" \
+        --details "Your_Details" \
+        --website "Your_Website" \
+        --security-contact "Your_EmailEmail" \
+        --gas-prices="0.025uhedge" \
+        --gas="auto" \
+        --gas-adjustment="1.5" \
+        --from "wallet"
+
         
 
     
