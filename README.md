@@ -103,7 +103,7 @@ Create Validator
         --identity "Your_Keybase" \
         --details "Your_Details" \
         --website "Your_Website" \
-        --security-contact "Your_EmailEmail" \
+        --security-contact "Your_Email" \
         --gas-prices="0.025uhedge" \
         --gas="auto" \
         --gas-adjustment="1.5" \
